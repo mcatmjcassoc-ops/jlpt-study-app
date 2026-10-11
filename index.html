@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JLPT Study</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/home"><span class="brand-jp">日本語</span> JLPT Study</a>
+  <nav id="nav">
+    <a href="#/home" data-route="home">Home</a>
+    <a href="#/review" data-route="review">Review</a>
+    <a href="#/kana" data-route="kana">Kana</a>
+    <a href="#/vocab" data-route="vocab">Vocabulary</a>
+    <a href="#/kanji" data-route="kanji">Kanji</a>
+    <a href="#/grammar" data-route="grammar">Grammar</a>
+    <a href="#/quiz" data-route="quiz">Quiz</a>
+    <a href="#/listening" data-route="listening">Listening</a>
+    <a href="#/exam" data-route="exam">Mock exam</a>
+    <a href="#/progress" data-route="progress">Progress</a>
+  </nav>
+  <div class="level-picker" id="levelPicker" aria-label="JLPT level"></div>
+</header>
+<main id="view"></main>
+
+<script src="data/kana.js"></script>
+<script src="data/n5.js"></script>
+<script src="data/n4.js"></script>
+<script src="data/n3.js"></script>
+<script src="data/n2.js"></script>
+<script src="data/n1.js"></script>
+<script src="data/grammar.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
